@@ -16,8 +16,8 @@ jobs:
       - name: Add remote
         env:
           HF: ${{ secrets.HF }}
-        run: git remote add space https://huggingface.co/spaces/Luna008/Text_sum
+        run: git remote add space https://lynah2:$HF@huggingface.co/spaces/Luna008/Text_sum
       - name: Push to hub
         env:
           HF: ${{ secrets.HF }}
-        run: git push --force https://huggingface.co/spaces/Luna008/Text_sum main
+        run: git push --force https://lynah2:$HF@huggingface.co/spaces/Luna008/Text_sum main
