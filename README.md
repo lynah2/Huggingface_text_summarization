@@ -1,7 +1,7 @@
 ---
 title: Text summarization
 emoji: 📄
-colorFrom: orange
+colorFrom: red
 colorTo: yellow
 sdk: gradio
 sdk_version: 5.23.1
